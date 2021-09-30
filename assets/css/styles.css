@@ -71,16 +71,38 @@ body.dark-theme{
   color: var(--title-color);
 }
 
-
-
-
 /*========== Font size variables to scale cv ==========*/
-
+body.scale-cv{
+  --h1-font-size: .938rem;
+  --h2-font-size: .938rem;
+  --h3-font-size: .875rem;
+  --normal-font-size: .813rem;
+  --small-font-size: .75rem;
+  --smaller-font-size: .688rem;
+}
 
 /*========== Generate PDF button ==========*/
+.generate-pdf{
+  display: none;
+  position: absolute;
+  top: 2.2rem;
+  left: 0;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.generate-pdf{
+  color: var(--title-color);
+}
 
 
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
+.scale-cv .change-theme,
+.scale-cv .generate-pdf{
+  display: none;
+}
+
 body{
   margin: 0 0 var(--header-height) 0;
   padding: 0;
@@ -295,6 +317,7 @@ img{
   font-size: var(--small-font-size);
   color: var(--text-color);
 }
+
 .social__link:hover{
   color: var(--title-color);
 }
@@ -395,6 +418,14 @@ img{
   margin-bottom: var(--mb-1) ;
 }
 
+.certificate__link{
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  font-weight: bold;
+}
+
 /*========== REFERENCES ==========*/
 .references__content{
   gap: .25rem;
@@ -493,6 +524,10 @@ img{
   .resume__left,
   .resume__right{
     padding: 0 1.5rem;
+  }
+
+  .generate-pdf{
+    display: inline-block;
   }
 
   .section-title,
