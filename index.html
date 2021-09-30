@@ -11,10 +11,32 @@
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>Responsive resume cv</title>
+    <title>Maik Costa - Resume</title>
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="path-to/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="assets/img/Java.png" sizes="32x32">
+    <link rel="shortcut icon" href="assets/img/Java.ico"> 
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mfancytitle-0.4.1.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $.mFancyTitle({
+                mftMissYou: true,
+                mftMissYouTitle: "Don't forget me, I'll do my best!", // new document title: it will appear when the user leaves your page and open another tab in the browser
+                mftTitleMarquee: [false, true],
+                mftTitleMarqueeDelay: [500, 1000],
+                mftMissYouFavicon: {
+                    'apple-touch-icon-precomposed': 'path-to/apple-touch-icon-152x152.png',
+                    'icon': 'assets/img/handUp.png',
+                    'shortcut icon': 'assets/img/handUp.ico'
+                },
+                mftFaviconBlink: [true, false],
+            });
+        });
+    </script>
 </head>
 
-<body class="scale-cv">
+<body>
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
         <nav class="nav bd-contaneirer">
@@ -127,14 +149,20 @@
                 <section class="profile section" id="profile">
                     <h2 class="section-title">Profile</h2>
                     <p class="profile_description">
-                        MBA Information System Projects and graduations in two technological areas being Web Systems Development and Computer Networks, currently has as main function to be an IT manager applying best practices acquired through certifications (DevOps, Agile Scrum and Lean It) applying IT frameworks software engineering with the use of object-oriented patterns, prioritizing process improvement and efficiency in building solutions, software maintenance and execution of operational processes. Experience in requirements gathering, implementation, systems support, information integrity and CI / CD. Negotiation with technology partners.
+                        MBA Information System Projects and graduations in two technological areas being Web Systems
+                        Development and Computer Networks, currently has as main function to be an IT manager applying
+                        best practices acquired through certifications (DevOps, Agile Scrum and Lean It) applying IT
+                        frameworks software engineering with the use of object-oriented patterns, prioritizing process
+                        improvement and efficiency in building solutions, software maintenance and execution of
+                        operational processes. Experience in requirements gathering, implementation, systems support,
+                        information integrity and CI / CD. Negotiation with technology partners.
                     </p>
                 </section>
 
                 <!--========== EDUCATION ==========-->
                 <section class="education section" id="education">
                     <h2 class="section-title">Education</h2>
-        
+
                     <div class="education__container bd-grid">
                         <div class="education__content">
                             <div class="education__time">
@@ -234,13 +262,17 @@
                                     forma clara e concisa;
                                     • Conduzir e facilitar as cerimônias: Daily, Planning, Review e Retrospectiva;
                                     • Avaliar junto ao time o andamento das entregas em Sprints e Kanban;
-                                    • Participação na cerimônia de Retrospectiva, avaliando junto ao time a evolução das entregas;
-                                    • Suporte ao time de desenvolvimento, tirando os impedimentos diários e auxiliando no entendimento do negócio;
-                                    • Atuação em Squads com diferentes produtos, tais como: TOTVS Protheus, Front-End e Apps.
-                                    • Potencializar características na equipe, como proatividade, boa comunicação e bom relacionamento em equipes multidisciplinares
+                                    • Participação na cerimônia de Retrospectiva, avaliando junto ao time a evolução das
+                                    entregas;
+                                    • Suporte ao time de desenvolvimento, tirando os impedimentos diários e auxiliando
+                                    no entendimento do negócio;
+                                    • Atuação em Squads com diferentes produtos, tais como: TOTVS Protheus, Front-End e
+                                    Apps.
+                                    • Potencializar características na equipe, como proatividade, boa comunicação e bom
+                                    relacionamento em equipes multidisciplinares
                                     • Promover a auto-organização
                                     • Gestão de Conflitos
-                                    
+
                                     Ferramentas: Jira Software e Monday.</p>
                             </div>
                         </div>
@@ -253,7 +285,20 @@
                             <div class="experience__data bd-grid">
                                 <h3 class="experience__title">IT Supervisor</h3>
                                 <span class="experience__company">From 2008 - 2021 | Santo Angelo</span>
-                                <p class="experience__description">Information Technology Management involving the area of ​​ERP (TOTVS) and infrastructure systems. Responsible for area indicators (CAPEX and OPEX, projects and technological evolution) Participation in the revitalization project of the company's ERP system. Involvement in all project areas such as requirements gathering, user interviews, documentation, schedule definition and monitoring, physical x financial evolution, resource control, internal and external and all other project needs. Together with other managers, we redefined processes and implemented new features. Maintenance and Development customizations, application of packages, database management, environment configuration, maintenance in data dictionary, update of releases in TOTVS Protheus systems, versions 8,10, 11 and 12, knowing the modules: Billing, Financial, Inventory, Purchasing, Management Accounting, Tax Books, Document Control, Entrance Inspection, Non-Conformity Control, Production Control Planning, Metrology, Personnel Management, Electronic Point and TAF. Service demand management with ITSM tools.</p>
+                                <p class="experience__description">Information Technology Management involving the area
+                                    of ​​ERP (TOTVS) and infrastructure systems. Responsible for area indicators (CAPEX
+                                    and OPEX, projects and technological evolution) Participation in the revitalization
+                                    project of the company's ERP system. Involvement in all project areas such as
+                                    requirements gathering, user interviews, documentation, schedule definition and
+                                    monitoring, physical x financial evolution, resource control, internal and external
+                                    and all other project needs. Together with other managers, we redefined processes
+                                    and implemented new features. Maintenance and Development customizations,
+                                    application of packages, database management, environment configuration, maintenance
+                                    in data dictionary, update of releases in TOTVS Protheus systems, versions 8,10, 11
+                                    and 12, knowing the modules: Billing, Financial, Inventory, Purchasing, Management
+                                    Accounting, Tax Books, Document Control, Entrance Inspection, Non-Conformity
+                                    Control, Production Control Planning, Metrology, Personnel Management, Electronic
+                                    Point and TAF. Service demand management with ITSM tools.</p>
                             </div>
                         </div>
                         <div class="experience__content">
@@ -265,7 +310,14 @@
                             <div class="experience__data bd-grid">
                                 <h3 class="experience__title">Network Analyst</h3>
                                 <span class="experience__company">From 2005 - 2008 | DAC</span>
-                                <p class="experience__description">Participation in the creation of the company's website, responsible for updating, online support to representatives in Brazil, firewall and proxy management, wireless network configuration and maintenance (Access Point), server configuration (Active Directory, IIS, DNS, DHCP and Routing ), appliance configuration and maintenance (hotbrick), management in telephony-oriented software (sumus and tac), backup routines, improvement in the ERP system (MK systems), support to basic, intermediate and advanced user levels, management on the part of (PABX, VOIP , Private Link).</p>
+                                <p class="experience__description">Participation in the creation of the company's
+                                    website, responsible for updating, online support to representatives in Brazil,
+                                    firewall and proxy management, wireless network configuration and maintenance
+                                    (Access Point), server configuration (Active Directory, IIS, DNS, DHCP and Routing
+                                    ), appliance configuration and maintenance (hotbrick), management in
+                                    telephony-oriented software (sumus and tac), backup routines, improvement in the ERP
+                                    system (MK systems), support to basic, intermediate and advanced user levels,
+                                    management on the part of (PABX, VOIP , Private Link).</p>
                             </div>
                         </div>
                     </div>
@@ -279,27 +331,32 @@
                         <div class="certificate__content">
                             <h3 class="certificate__title">DevOps Lead</h3>
                             <p class="certiticate__description">Certification Number:</p>
-                            <a href="https://www.credential.net/73d88633-5160-4819-aed3-43fbea3b480f" target="_blank" class="certificate__link">5F60DCC <i class='bx bx-link-external'></i></a>
+                            <a href="https://www.credential.net/73d88633-5160-4819-aed3-43fbea3b480f" target="_blank"
+                                class="certificate__link">5F60DCC <i class='bx bx-link-external'></i></a>
                         </div>
                         <div class="certificate__content">
                             <h3 class="certificate__title">Agile Scrum Fundamentals</h3>
                             <p class="certiticate__description">Certification Number:</p>
-                            <a href="https://www.credential.net/7652852a-56a5-4d0d-8954-be75933844c5" target="_blank" class="certificate__link">5F60DCD <i class='bx bx-link-external'></i></a>
+                            <a href="https://www.credential.net/7652852a-56a5-4d0d-8954-be75933844c5" target="_blank"
+                                class="certificate__link">5F60DCD <i class='bx bx-link-external'></i></a>
                         </div>
                         <div class="certificate__content">
                             <h3 class="certificate__title">DevOps Lead</h3>
                             <p class="certiticate__description">Certification Number:</p>
-                            <a href="https://www.credential.net/73d88633-5160-4819-aed3-43fbea3b480f" target="_blank" class="certificate__link">5F60DCC <i class='bx bx-link-external'></i></a>
+                            <a href="https://www.credential.net/73d88633-5160-4819-aed3-43fbea3b480f" target="_blank"
+                                class="certificate__link">5F60DCC <i class='bx bx-link-external'></i></a>
                         </div>
                         <div class="certificate__content">
                             <h3 class="certificate__title">DevOps Lead</h3>
                             <p class="certiticate__description">Certification Number:</p>
-                            <a href="https://www.credential.net/73d88633-5160-4819-aed3-43fbea3b480f" target="_blank" class="certificate__link">5F60DCC <i class='bx bx-link-external'></i></a>
+                            <a href="https://www.credential.net/73d88633-5160-4819-aed3-43fbea3b480f" target="_blank"
+                                class="certificate__link">5F60DCC <i class='bx bx-link-external'></i></a>
                         </div>
                         <div class="certificate__content">
                             <h3 class="certificate__title">DevOps Lead</h3>
                             <p class="certiticate__description">Certification Number:</p>
-                            <a href="https://www.credential.net/73d88633-5160-4819-aed3-43fbea3b480f" target="_blank" class="certificate__link">5F60DCC <i class='bx bx-link-external'></i></a>
+                            <a href="https://www.credential.net/73d88633-5160-4819-aed3-43fbea3b480f" target="_blank"
+                                class="certificate__link">5F60DCC <i class='bx bx-link-external'></i></a>
                         </div>
                     </div>
                 </section>
@@ -377,7 +434,7 @@
     </a>
 
     <!--========== HTML2PDF ==========-->
-    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <script src="assets/js/v2html2pdf.bundle.min.js"></script>
 
     <!--========== MAIN JS ==========-->
     <script src="assets/js/main.js"></script>
