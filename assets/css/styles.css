@@ -92,7 +92,7 @@ body.scale-cv{
   cursor: pointer;
 }
 
-.generate-pdf{
+.generate-pdf:hover{
   color: var(--title-color);
 }
 
