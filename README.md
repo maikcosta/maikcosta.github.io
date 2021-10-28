@@ -4,4 +4,4 @@ Beautiful Responsive resume cv website 📄 using html, css and javascript. Ligh
 
 ![Resume cv](/preview.png)
 
-[Acess page on github](https://maikcosta.github.io/ "Resume Maik Costa")
+[Access page on github](https://maikcosta.github.io/ "Resume Maik Costa")
